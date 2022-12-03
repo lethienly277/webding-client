@@ -49,7 +49,7 @@ Primary use:	We love - Onepage Html Responsive Template
 [Typography]
 
 Body :		'Roboto', sans-serif;
-Headers:		font-family: 'Parisienne', cursive;
+Headers:		font-family: 'Playball', cursive;
 Input, textarea:	'Roboto', sans-serif;
 
 -------------------------------------------------------------------*/
@@ -86,7 +86,7 @@ h3,
 h4,
 h5,
 h6 {
-  	font-family: 'Parisienne', cursive;
+  	font-family: 'Playball', cursive;
 }
 p {
   	line-height: 1.5;
@@ -126,7 +126,7 @@ aside {
 	height: 60px !important;
 }
 .logo{
-	font-family: 'Parisienne', cursive;
+	font-family: 'Playball', cursive;
 	color:#fff;
 	    text-transform: capitalize;
     font-weight: 500;
@@ -783,7 +783,7 @@ article.post-large .post-image, article.post-large .post-date {
 	-webkit-transition: all 0.35s;
 	-moz-transition: all 0.35s;
 		transition: all 0.35s;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Playball', cursive;
 }
 .gallery-box .gallery-box-caption .gallery-box-caption-content {
 	width: 100%;
