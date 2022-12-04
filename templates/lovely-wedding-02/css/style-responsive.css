@@ -1,4 +1,4 @@
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     #slide-his-name{
         font-size:70px;
     }
