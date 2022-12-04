@@ -8,11 +8,19 @@
     }
 
     #counting{
-        font-size:52px;
+        font-size:48px;
     }
 
     #attending{
         font-size:52px;
+    }
+
+    #adventure{
+        font-size:94px;
+    }
+
+    #begin{
+        font-size:72px;
     }
 }
 
