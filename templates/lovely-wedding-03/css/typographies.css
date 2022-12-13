@@ -20,13 +20,15 @@ NOTE: This is typography stylesheet of template, This file contains typography o
 ---- End table content ----*/
 /* @import url('https://fonts.googleapis.com/css?family=Playball|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 
 /*---- General Style Start ----*/
 html{
 	font-size: 15px; 
 }
 body { 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: normal; 
 	font-style: normal; 
 	color: #898989; 

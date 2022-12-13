@@ -14,7 +14,7 @@ nav {
     min-height: 60px;
     background: #fff;
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 300;
 }
 
@@ -110,7 +110,7 @@ nav button {
 .core-nav .dropdown>.dropdown-menu>li>a, nav .menu .megamenu-content li a {
 	font-weight: 400;
 	font-size: 13px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	text-transform: capitalize;
 }
 .left-menu .core-nav .wrap-core-nav-list {
