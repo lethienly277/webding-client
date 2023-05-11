@@ -2039,7 +2039,7 @@ a:focus {
 }
 
 .static-hero {
-    background: url("../images/slider/background.JPG") center center/cover no-repeat local;
+    background: url("../images/slider/background.jpg") center center/cover no-repeat local;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2068,7 +2068,7 @@ a:focus {
 --------------------------------------------------------------*/
 
 .site-footer {
-    background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+    background: url("../images/suhiendien.jpg") center center/cover no-repeat local;
     text-align: center;
     color: #fff;
     padding: 160px 0;
