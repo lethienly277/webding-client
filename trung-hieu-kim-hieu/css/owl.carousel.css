@@ -68,6 +68,7 @@
 .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
+    margin: auto;
 }
 
 .owl-carousel .owl-stage:after {
