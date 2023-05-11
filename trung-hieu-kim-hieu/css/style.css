@@ -2411,6 +2411,9 @@ a:focus {
 }
 
 @media screen and (min-width: 992px) {
+    .wedding-couple-section .bride .details {
+		height: 855px !important;
+	}
     .wedding-couple-section .bride {
         text-align: right;
     }
