@@ -1131,13 +1131,23 @@
 		}
 	}
 
-	.gif-registration-slider .register {
-		border: 1px solid #111;
+	//.gif-registration-slider .register {
+	//	border: 1px solid #111;
+	//	padding: 20px;
+	//
+	//	img {
+	//		width: auto;
+	//		max-width: 100%;
+	//	}
+	//}
+
+	.register {
 		padding: 20px;
 
 		img {
 			width: auto;
-			max-width: 100%;
+			max-width: 300px;
+			margin: auto;
 		}
 	}
 }
