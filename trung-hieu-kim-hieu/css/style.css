@@ -4138,5 +4138,10 @@ a:focus {
 .blog-details-content .comment-respond .comment-form .submit-btn button {
     border-radius: 0;
 }
-
+@media screen and (max-width:767px) {
+    iframe[src*="google.com/forms"] {
+        width: 420px !important;
+        height: 1100px;
+    }
+}
 /*# sourceMappingURL=style.css.map */
