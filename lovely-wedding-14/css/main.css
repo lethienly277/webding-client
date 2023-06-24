@@ -1,3 +1,14 @@
+#languageDropdown {
+    background: transparent !important;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    margin: 12px;
+}
+select:focus {
+    outline: none;
+}
+
 .h-flex {
 	display: -ms-flexbox;
 	display: flex;
@@ -416,6 +427,11 @@ img {
 .navbar.affix a {
 	color: #000000;
 }
+
+.navbar.affix #languageDropdown {
+    color: #000000;
+    border-color: #000000;
+}
 .navbar.affix a:hover {
 	color: #000000;
 }
@@ -473,6 +489,10 @@ img {
 	text-transform: uppercase;
 	color: #FFFFFF;
 	transition: all 0.5s ease;
+}
+.navbar ul li #languageDropdown {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 .navbar ul li a:after {
 	opacity: 0;
