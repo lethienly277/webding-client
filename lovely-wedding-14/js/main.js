@@ -28,6 +28,13 @@
 				audioButton.removeClass("pause").addClass("play");
 			}
 		});
+		function highlightIcon() {
+			$("#audio-button").css("animation", "rotate 2s infinite linear"); // Áp dụng animation vô hạn
+
+		}
+
+		// Gọi hàm highlightIcon để chạy hiệu ứng làm nổi bật icon
+		highlightIcon();
 	});
 
 	// Form
@@ -100,6 +107,12 @@
 				$('.js-nav-toggle').removeClass('active');
 			}
 		});
+		$('#languageDropdown').change(function() {
+			var selectedLanguage = $(this).val();
+			$('.en').toggle(selectedLanguage === 'en');
+			$('.vi').toggle(selectedLanguage === 'vi');
+		});
+
 	};
 
 	// Page scroll

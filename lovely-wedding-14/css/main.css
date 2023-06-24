@@ -1,3 +1,12 @@
+#audio-button {
+	transition: transform 0.3s ease-in-out; /* Độ trễ và kiểu chuyển đổi */
+}
+
+@keyframes rotate {
+	from { transform: rotate(0deg); } /* Góc quay ban đầu */
+	to { transform: rotate(360deg); } /* Góc quay kết thúc */
+}
+
 #languageDropdown {
     background: transparent !important;
     border-radius: 5px;
@@ -52,7 +61,7 @@ select:focus {
 		width: 250px;
 		height: 120px;
 		right: auto;
-		left: 30px;
+		left: 322px;
 	}
 }
 
@@ -420,23 +429,22 @@ img {
 }
 .navbar.affix {
 	position: fixed;
-	background: white;
+	background: #000000;
 	transition: all 0.5s ease;
 	border-bottom: 1px solid #ccc;
 }
-.navbar.affix a {
-	color: #000000;
-}
+/*.navbar.affix a {*/
+/*	color: #000000;*/
+/*}*/
 
-.navbar.affix #languageDropdown {
-    color: #000000;
-    border-color: #000000;
+.navbar #languageDropdown {
+    cursor: pointer;
 }
 .navbar.affix a:hover {
-	color: #000000;
+	/*color: #000000;*/
 }
 .navbar.affix .active > a {
-	color: #000000 !important;
+	/*color: #000000 !important;*/
 }
 .navbar.affix .active > a:after {
 	background: #000000;
