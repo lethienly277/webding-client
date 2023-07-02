@@ -8,6 +8,7 @@
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
 		width: 400px !important;
+		height: 1100px !important;
 	}
 }
 @keyframes rotate {
