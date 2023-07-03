@@ -49,6 +49,12 @@ img {
 	margin-left: 0;
 }
 
+@media screen and (max-width:767px) {
+	iframe[src*="google.com/forms"] {
+		width: 400px !important;
+		height: 900px !important;
+	}
+}
 .menu-icon-wrapper {
 	position: absolute;
 	top: 50%;
