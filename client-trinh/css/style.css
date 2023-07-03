@@ -324,6 +324,9 @@ img {
 		margin-right: -15px;
 		margin-left: -15px;
 	}
+	.footer {
+		background-position-y: -200px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -1931,7 +1934,6 @@ span.wpcf7-not-valid-tip {
 .footer {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
 }
 
 .footer .container {
