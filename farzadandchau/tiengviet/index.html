@@ -26,24 +26,33 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Pacifico%7CWork+Sans:400,300,600,400italic,700%7CAmatic+SC:400,700&amp;subset=latin-ext' rel='stylesheet' type='text/css'>
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/vendor/animate.css">
+	<link rel="stylesheet" href="../css/vendor/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/vendor/icomoon.css">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/vendor/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/vendor/magnific-popup.css">
+	<link rel="stylesheet" href="../css/vendor/magnific-popup.css">
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/vendor/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../css/vendor/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/vendor/owl.theme.default.min.css">
 	<!-- Lightbox -->
-	<link rel="stylesheet" href="css/vendor/lightbox.min.css">
+	<link rel="stylesheet" href="../css/vendor/lightbox.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../css/main.css">
 
 </head>
+
+<style>
+	.en {
+		display: none;
+	}
+	.vi {
+		display: inherit;
+	}
+</style>
 <!--Tiếng anh-->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <div class="loader"></div>
@@ -58,29 +67,28 @@
 				<div class="col-xs-9 menu-2">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active">
-							<a class="page-scroll en" href="#header"><3</a>
-							<a class="page-scroll vi" href="#header" style="display: none"><3</a>
+							<a class="page-scroll" href="#header"><3</a>
 						</li>
 						<li>
-							<a class="page-scroll en" href="#events">Events</a>
-							<a class="page-scroll vi" href="#events" style="display: none">Sự kiện</a>
+							<a class="page-scroll en" href="#events" style="display: none">Events</a>
+							<a class="page-scroll vi" href="#events">Sự kiện</a>
 						</li>
 						<li>
-							<a class="page-scroll en" href="#couple-story">Story</a>
-							<a class="page-scroll vi" href="#couple-story" style="display: none">Câu chuyện của chúng mình</a>
+							<a class="page-scroll en" href="#couple-story" style="display: none">Story</a>
+							<a class="page-scroll vi" href="#couple-story">Câu chuyện của chúng mình</a>
 						</li>
 						<li>
-							<a class="page-scroll en" href="#gallery">Gallery</a>
-							<a class="page-scroll vi" href="#gallery" style="display: none">Ảnh của chúng mình</a>
+							<a class="page-scroll en" href="#gallery" style="display: none">Gallery</a>
+							<a class="page-scroll vi" href="#gallery">Ảnh của chúng mình</a>
 						</li>
 						<li>
-							<a class="page-scroll en" href="#invitation">Contact</a>
-							<a class="page-scroll vi" href="#invitation" style="display: none">Xác nhận tham dự</a>
+							<a class="page-scroll en" href="#invitation" style="display: none">Contact</a>
+							<a class="page-scroll vi" href="#invitation">Xác nhận tham dự</a>
 						</li>
 						<li>
 							<select id="languageDropdown">
-								<option value="en">English</option>
 								<option value="vi">Tiếng Việt</option>
+								<option value="en">English</option>
 							</select>
 						</li>
 					</ul>
@@ -89,7 +97,7 @@
 		</div>
 	</nav>
 	<!-- Header -->
-	<section id="header" class="cover" data-parallax="scroll" data-image-src="img/anhnen.png">
+	<section id="header" class="cover" data-parallax="scroll" data-image-src="../img/anhnen.png">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -130,7 +138,7 @@
 			<div class="row couple-wrap en">
 				<div class="groom-wrap col-md-6 clearfix">
 					<div class="groom">
-						<img src="img/chure.jpeg" alt="groom" class="img-responsive">
+						<img src="../img/chure.jpeg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Farzad Marzban</h3>
@@ -141,7 +149,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="bride-wrap col-md-6">
 					<div class="bride">
-						<img src="img/codau.jpeg" alt="groom" class="img-responsive">
+						<img src="../img/codau.jpeg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Chau Ly</h3>
@@ -153,7 +161,7 @@
 			<div class="row couple-wrap vi">
 				<div class="groom-wrap col-md-6 clearfix">
 					<div class="groom">
-						<img src="img/chure.jpeg" alt="groom" class="img-responsive">
+						<img src="../img/chure.jpeg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Farzad</h3>
@@ -167,7 +175,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="bride-wrap col-md-6">
 					<div class="bride">
-						<img src="img/codau.jpeg" alt="groom" class="img-responsive">
+						<img src="../img/codau.jpeg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Minh Châu</h3>
@@ -270,12 +278,12 @@
 					<div class="panel-group" id="accordion-img">
 						<div class="panel panel-default">
 							<div id="collapse10" class="panel-collapse collapse in">
-								<img src="img/event2.jpg" alt="">
+								<img src="../img/event2.jpg" alt="">
 							</div>
 						</div>
 						<div class="panel panel-default">
 							<div id="collapse20" class="panel-collapse collapse">
-								<img src="img/event3.jpg" alt="">
+								<img src="../img/event3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -334,7 +342,7 @@
 					<ul class="timeline animate-box">
 						<li class="timeline-item animate-box">
 							<div class="timeline-badge">
-								<img src="img/yeunhau.png" alt="">
+								<img src="../img/yeunhau.png" alt="">
 							</div>
 							<div class="timeline-panel en">
 								<div class="timeline-heading">
@@ -357,7 +365,7 @@
 						</li>
 						<li class="timeline-item animate-box">
 							<div class="timeline-badge">
-								<img src="img/inlove.jpeg" alt="">
+								<img src="../img/inlove.jpeg" alt="">
 							</div>
 							<div class="timeline-panel en">
 								<div class="timeline-heading">
@@ -380,7 +388,7 @@
 						</li>
 						<li class="timeline-item animate-box">
 							<div class="timeline-badge">
-								<img src="img/nuoicho.jpeg" alt="">
+								<img src="../img/nuoicho.jpeg" alt="">
 							</div>
 							<div class="timeline-panel vi">
 								<div class="timeline-heading">
@@ -403,7 +411,7 @@
 						</li>
 						<li class="timeline-item animate-box">
 							<div class="timeline-badge">
-								<img src="img/cauhon.jpg" alt="">
+								<img src="../img/cauhon.jpg" alt="">
 							</div>
 							<div class="timeline-panel en">
 								<div class="timeline-heading">
@@ -426,7 +434,7 @@
 						</li>
 						<li class="timeline-item animate-box">
 							<div class="timeline-badge">
-								<img src="img/cauhon2.jpg" alt="">
+								<img src="../img/cauhon2.jpg" alt="">
 							</div>
 							<div class="timeline-panel en">
 								<div class="timeline-heading">
@@ -483,33 +491,33 @@
 					<div class="grid grid--margin">
 						<div class="grid-sizer"></div>
 						<div class="grid-item grid-item--width moments friends">
-							<a href="img/IMG_1260.jpg" data-lightbox="roadtrip">
-								<img src="img/IMG_1260.jpg" alt="gallery">
+							<a href="../img/IMG_1260.jpg" data-lightbox="roadtrip">
+								<img src="../img/IMG_1260.jpg" alt="gallery">
 							</a>
 						</div>
 						<div class="grid-item moments banguet party">
-							<a href="img/IMG_4098.jpg" data-lightbox="roadtrip">
-								<img src="img/IMG_4098.jpg" alt="gallery">
+							<a href="../img/IMG_4098.jpg" data-lightbox="roadtrip">
+								<img src="../img/IMG_4098.jpg" alt="gallery">
 							</a>
 						</div>
 						<div class="grid-item friends moments party">
-							<a href="img/IMG_4205.jpg" data-lightbox="roadtrip">
-								<img src="img/IMG_4205.jpg" alt="gallery">
+							<a href="../img/IMG_4205.jpg" data-lightbox="roadtrip">
+								<img src="../img/IMG_4205.jpg" alt="gallery">
 							</a>
 						</div>
 						<div class="grid-item banguet family">
-							<a href="img/IMG_4268.jpg" data-lightbox="roadtrip">
-								<img src="img/IMG_4268.jpg" alt="gallery">
+							<a href="../img/IMG_4268.jpg" data-lightbox="roadtrip">
+								<img src="../img/IMG_4268.jpg" alt="gallery">
 							</a>
 						</div>
 						<div class="grid-item friends family">
-							<a href="img/IMG_4708.jpg" data-lightbox="roadtrip">
-								<img src="img/IMG_4708.jpg" alt="gallery">
+							<a href="../img/IMG_4708.jpg" data-lightbox="roadtrip">
+								<img src="../img/IMG_4708.jpg" alt="gallery">
 							</a>
 						</div>
 						<div class="grid-item friends family">
-							<a href="img/anhnen.jpg" data-lightbox="roadtrip">
-								<img src="img/anhnen.jpg" alt="gallery">
+							<a href="../img/anhnen.jpg" data-lightbox="roadtrip">
+								<img src="../img/anhnen.jpg" alt="gallery">
 							</a>
 						</div>
 					</div>
@@ -571,33 +579,33 @@
 </div>
 
 <!-- Modernizr JS -->
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 <!-- FOR IE9 below -->
 <!--[if lt IE 9]>
-<script src="js/vendor/respond.min.js"></script>
+<script src="../js/vendor/respond.min.js"></script>
 <![endif]-->
 <!-- jQuery -->
-<script src="js/vendor/jquery.min.js"></script>
+<script src="../js/vendor/jquery.min.js"></script>
 <!-- jQuery Easing -->
-<script src="js/vendor/jquery.easing.1.3.js"></script>
+<script src="../js/vendor/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
-<script src="js/vendor/bootstrap.min.js"></script>
+<script src="../js/vendor/bootstrap.min.js"></script>
 <!-- Waypoints -->
-<script src="js/vendor/jquery.waypoints.min.js"></script>
+<script src="../js/vendor/jquery.waypoints.min.js"></script>
 <!-- Carousel -->
-<script src="js/vendor/owl.carousel.min.js"></script>
+<script src="../js/vendor/owl.carousel.min.js"></script>
 <!-- countTo -->
-<script src="js/vendor/jquery.countTo.js"></script>
+<script src="../js/vendor/jquery.countTo.js"></script>
 <!-- Parallax -->
-<script src="js/vendor/parallax.min.js"></script>
+<script src="../js/vendor/parallax.min.js"></script>
 <!-- Magnific Popup -->
-<script src="js/vendor/jquery.magnific-popup.min.js"></script>
-<script src="js/vendor/magnific-popup-options.js"></script>
-<script src="js/vendor/lightbox.min.js"></script>
-<script src="js/vendor/isotope.pkgd.min.js"></script>
-<script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="../js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="../js/vendor/magnific-popup-options.js"></script>
+<script src="../js/vendor/lightbox.min.js"></script>
+<script src="../js/vendor/isotope.pkgd.min.js"></script>
+<script src="../js/vendor/imagesloaded.pkgd.min.js"></script>
 <!-- Main -->
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 
 </html>
