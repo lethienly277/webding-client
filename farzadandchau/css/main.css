@@ -1819,7 +1819,7 @@ footer .copyright .block {
 /* Countdown */
 .countdown.section {
 	background-image: url(../img/cauhon2.jpg);
-	background-position-y: -50px;
+	background-position-y: -10px;
 }
 .countdown .heading {
 	margin-bottom: 8em;
