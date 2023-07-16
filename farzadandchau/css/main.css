@@ -1820,6 +1820,7 @@ footer .copyright .block {
 .countdown.section {
 	background-image: url(../img/cauhon2.jpg);
 	background-position-y: -10px;
+	min-height: 820px;
 }
 .countdown .heading {
 	margin-bottom: 8em;
