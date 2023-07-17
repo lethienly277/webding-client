@@ -21,18 +21,19 @@
 
 /*# 1. Main Styles*/
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('./font.css');
 
 
 
 body {
-	font: 300 15px/24px 'Crimson Text', serif;
+	font: 300 20px/24px 'AdobeGaramondPro', serif;
 	min-height: 100%;
 	height: 100%;
 	color: #666666;
 }
 
 body b {
-	font: 500 15px/24px 'Crimson Text', serif;
+	font: 500 20px/24px 'AdobeGaramondPro', serif;
 }
 
 html {
@@ -188,8 +189,8 @@ img {
 }
 
 #menu-mobile ul li a {
+	font-family: 'VogueAvantGarde';
 	color: #ffffff80;
-	text-transform: uppercase;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
@@ -399,7 +400,7 @@ a {
 
 h2,
 h1 {
-	font: 46px/48px 'Crimson Text', serif;
+	font: 46px/48px 'VogueAvantGarde', sans-sans-serif;
 	text-align: center;
 	margin: 0 0 20px 0;
 }
@@ -415,12 +416,12 @@ h1:after {
 
 h2 b,
 h1 b {
-	font: 400 46px/48px 'Crimson Text', serif
+	font: 400 46px/48px 'VogueAvantGarde', sans-serif
 }
 
 h2 span,
 h1 span {
-	font: 300 26px/40px 'Crimson Text', serif;
+	font: 300 26px/40px 'VogueAvantGarde', sans-serif;
 	padding: 0 13px 0 0
 }
 
@@ -450,7 +451,7 @@ hr {
 }
 
 .btn {
-	font: 500 14px 'Crimson Text', serif;
+	font: 500 14px 'VogueAvantGarde', sans-sans-serif;
 	padding: 8px;
 	border-radius: 0;
 	margin: 20px 4px;
@@ -505,7 +506,7 @@ header {
 	position: absolute;
 	right: 16px;
 	margin: 5px 0 0 0;
-	font-size: 16px
+	font-size: 20px;
 }
 
 .header_social a {
@@ -599,14 +600,14 @@ header {
 .sub_menu li:before {
 	content: '0' counter(item);
 	counter-increment: item;
-	font: 30px 'Crimson Text', serif;
+	font: 30px 'VogueAvantGarde', sans-serif;
 	display: inline-block;
 	margin: 0 20px 0 0
 }
 
 .sub_menu a {
 	color: #666;
-	font: 400 18px/28px 'Crimson Text', serif;
+	font: 400 18px/28px 'VogueAvantGarde', sans-serif;
 	display: inline-block;
 	padding: 6px 0
 }
@@ -812,7 +813,7 @@ header {
 
 
 .names {
-	font: 46px 'Crimson Text', serif;
+	font: 46px 'VogueAvantGarde', sans-serif;
 	color: #000
 }
 
@@ -834,13 +835,13 @@ header {
 }
 
 .date {
-	font: 40px 'Crimson Text', serif;
+	font: 40px 'VogueAvantGarde', sans-serif;
 	margin: 0 0 50px 0;
 	color: #000
 }
 
 .date span {
-	font: 32px 'Crimson Text', serif;
+	font: 32px 'VogueAvantGarde', sans-serif;
 	display: inline-block;
 	padding: 0 0 0 20px
 }
@@ -858,7 +859,7 @@ header {
 
 
 #countdown {
-	font: 34px/40px 'Crimson Text', serif;
+	font: 34px/40px 'VogueAvantGarde', sans-serif;
 	text-align: center;
 	height: 60px
 }
@@ -874,11 +875,11 @@ header {
 }
 
 .days {
-	font: 14px/14px 'Crimson Text', serif
+	font: 14px/14px 'VogueAvantGarde', sans-serif
 }
 
 .count_bl .countdown-period {
-	font: 14px/14px 'Crimson Text', serif;
+	font: 14px/14px 'VogueAvantGarde', sans-serif;
 	display: block
 }
 
@@ -935,11 +936,11 @@ header {
 	position: absolute;
 	margin: -3px 0 0 -35px;
 	opacity: 0.5;
-	font: 400 18px/28px 'Crimson Text', serif
+	font: 400 18px/28px 'VogueAvantGarde', sans-serif
 }
 
 .bullet span b {
-	font: 400 18px/28px 'Crimson Text', serif;
+	font: 400 18px/28px 'VogueAvantGarde', sans-serif;
 	display: inline-block;
 	margin: 0 0 0 30px;
 }
@@ -1017,7 +1018,7 @@ header {
 }
 
 .married_coundown {
-	font: 400 40px/48px 'Crimson Text', serif;
+	font: 400 40px/48px 'VogueAvantGarde', sans-serif;
 	margin: 20px 0 0 0
 }
 
@@ -1049,7 +1050,7 @@ header {
 }
 
 .married_coundown .countdown-period {
-	font: 20px/24px 'Crimson Text', serif;
+	font: 20px/24px 'VogueAvantGarde', sans-serif;
 	color: #c5c3be;
 	display: block;
 	text-transform: lowercase;
@@ -1062,7 +1063,7 @@ header {
 }
 
 .bride_title_block {
-	font: 46px/48px 'Crimson Text', serif;
+	font: 46px/48px 'VogueAvantGarde', sans-serif;
 	text-align: center;
 	margin: 80px 0 0 0;
 	color: #d9c6b1;
@@ -1072,7 +1073,7 @@ header {
 }
 
 .bride_title_block i {
-	font: normal 300 15px/24px 'Crimson Text', serif;
+	font: normal 300 15px/24px 'VogueAvantGarde', sans-serif;
 	color: #666;
 	display: block;
 	margin: -7px 0 0 0;
@@ -1104,7 +1105,7 @@ header {
 }
 
 .groom_title_block {
-	font: 46px/48px 'Crimson Text', serif;
+	font: 46px/48px 'VogueAvantGarde', sans-serif;
 	text-align: center;
 	margin: 80px 0 0 0;
 	color: #d9c6b1;
@@ -1114,7 +1115,7 @@ header {
 }
 
 .groom_title_block i {
-	font: normal 300 15px/24px 'Crimson Text', serif;
+	font: normal 300 15px/24px 'VogueAvantGarde', sans-serif;
 	color: #666;
 	display: block;
 	margin: -7px 0 0 0;
@@ -1183,7 +1184,7 @@ header {
 	position: absolute;
 	width: 302px;
 	height: 302px;
-	border: 15px solid rgba(255, 255, 255, 0.4);
+	border: 5px solid #fff;
 	border-radius: 50%;
 }
 
@@ -1365,10 +1366,12 @@ header {
 }
 
 .owl-page {
-	width: 48px;
-	height: 48px;
+	width: 32px;
+	height: 32px;
 	display: inline-block;
 	position: relative;
+	background-color: #fff;
+	border-radius: 100%;
 	margin: -21px 0 0 0;
 }
 
@@ -1513,13 +1516,14 @@ header {
 }
 
 .story_title {
-	font: 34px/26px 'Crimson Text', serif;
+	font: 34px/26px 'VogueAvantGarde', sans-serif;
 	margin: 0 -10% 28px 0;
 	text-align: center;
+	color: #090909;
 }
 
 .story_title i {
-	font: normal 300 14px/28px 'Crimson Text', serif;
+	font: normal 300 14px/28px 'VogueAvantGarde', sans-serif;
 	position: relative;
 	margin: 0 0 10px 0;
 	text-align: center;
@@ -1549,6 +1553,10 @@ header {
 	margin: -5px 0 0 -9px;
 	left: 50%;
 	opacity: 0.3
+}
+
+.story_title i {
+	margin-top: 12px;
 }
 
 .owl-item {
@@ -1596,7 +1604,7 @@ header {
 }
 
 #form_send_message {
-	font: 24px/32px 'Crimson Text', serif
+	font: 24px/32px 'VogueAvantGarde', sans-serif
 }
 
 #envelope {
@@ -1605,7 +1613,7 @@ header {
 }
 
 .envelope p {
-	font: 16px/28px 'Crimson Text', serif
+	font: 16px/28px 'VogueAvantGarde', sans-serif
 }
 
 .envelope h2 {
@@ -1624,7 +1632,7 @@ header {
 	transition: 0.3s all ease-out;
 	transition-delay: 0.5s;
 	top: 0;
-	font: 14px/24px 'Crimson Text', serif
+	font: 14px/24px 'VogueAvantGarde', sans-serif
 }
 
 .paper .paper_title {
@@ -1723,7 +1731,7 @@ header {
 
 
 .accept_decline {
-	font: 46px 'Crimson Text', serif
+	font: 46px 'VogueAvantGarde', sans-serif
 }
 
 .form-control {
@@ -1731,7 +1739,7 @@ header {
 	background: none;
 	border: 0;
 	border-bottom: 1px solid #595959;
-	font: 22px 'Crimson Text', serif !important;
+	font: 22px 'VogueAvantGarde', sans-serif !important;
 	box-shadow: 0 0 0 !important;
 	position: relative;
 	height: 40px !important
@@ -1857,37 +1865,36 @@ span.wpcf7-not-valid-tip {
 }
 
 .title0 {
-	font: 300 16px/28px 'Crimson Text', serif;
-	color: rgba(255, 255, 255, 0.5);
+	font: 500 16px/28px 'VogueAvantGarde';
+	color: white;
 }
 
 .title1 {
-	font: 46px/48px 'Crimson Text', serif;
-	letter-spacing: 0.5rem;
+	font: 46px/48px 'VogueAvantGarde', sans-serif;
 }
 
 .title1_2 {
-	text-indent: -15px;
-	font: 52px/56px 'Crimson Text', serif;
+	font-family: 'VogueAvantGarde';
+	font-size: 52px;
 }
 
 .title2 {
-	font: 56px/60px 'Crimson Text', serif;
+	font: 56px/60px 'VogueAvantGarde';
 	margin: 0 0 13px 0;
 }
 
 .title3 {
-	font: 24px/32px 'Crimson Text', serif;
+	font: 24px/32px 'VogueAvantGarde', sans-serif;
 	margin: 0 0 5px 0;
 }
 
 .title4 {
-	font: 300 34px/40px 'Crimson Text', serif;
+	font: 300 34px/40px 'VogueAvantGarde', sans-serif;
 	text-transform: uppercase
 }
 
 .title5 {
-	font: 300 14px/24px 'Crimson Text', serif;
+	font: 300 14px/24px 'VogueAvantGarde', sans-serif;
 	text-transform: uppercase;
 	margin: -5px 0 20px
 }
@@ -1958,7 +1965,7 @@ span.wpcf7-not-valid-tip {
 }
 
 .thanks {
-	font: 45px/48px 'Crimson Text', serif;
+	font: 45px/48px 'VogueAvantGarde', sans-serif;
 	padding: 0 24px;
 	margin: 0 0 21px 0
 }
@@ -2047,19 +2054,19 @@ span.wpcf7-not-valid-tip {
 
 
 .guest_title {
-	font: 32px/40px 'Crimson Text', serif;
+	font: 32px/40px 'VogueAvantGarde', sans-serif;
 	color: #757575;
 	z-index: 3;
 }
 
 .guest_title span {
 	display: block;
-	font: 300 16px/24px 'Crimson Text', serif;
+	font: 300 16px/24px 'VogueAvantGarde', sans-serif;
 	margin: 20px 0 0
 }
 
 .guest_item i:before {
-	font-size: 18px !important;
+	font-size: 20px !important;
 	color: #999
 }
 
@@ -2080,7 +2087,7 @@ span.wpcf7-not-valid-tip {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font: 24px/32px 'Crimson Text', serif;
+	font: 24px/32px 'VogueAvantGarde', sans-serif;
 	display: -webkit-box;
 	/* Android 4.3-, Safari */
 	-webkit-box-pack: justify;
@@ -2110,7 +2117,7 @@ span.wpcf7-not-valid-tip {
 
 .gallery_txt b {
 	display: block;
-	font: 34px/40px 'Crimson Text', serif;
+	font: 34px/40px 'VogueAvantGarde', sans-serif;
 	color: #fff
 }
 
@@ -2158,7 +2165,7 @@ span.wpcf7-not-valid-tip {
 	;
 	bottom: 16px;
 	right: 16px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .gallery_item:hover .gallery_txt a {
@@ -2255,11 +2262,11 @@ span.wpcf7-not-valid-tip {
 	}
 
 	h2 {
-		font: 34px/40px 'Crimson Text', serif
+		font: 34px/40px 'VogueAvantGarde', sans-serif
 	}
 
 	h2 span {
-		font: 400 24px/32px 'Crimson Text', serif
+		font: 400 24px/32px 'VogueAvantGarde', sans-serif
 	}
 
 	h2 span:after {
@@ -2288,15 +2295,15 @@ span.wpcf7-not-valid-tip {
 	}
 
 	.paper h2 {
-		font-size: 28px !important
+		font-size: 30px !important
 	}
 
 	.paper h2 span {
-		font-size: 18px !important
+		font-size: 20px !important
 	}
 
 	.form-control {
-		font-size: 14px !important
+		font-size: 16px !important
 	}
 
 
@@ -2420,11 +2427,11 @@ h1 {
 }
 
 .blog_item a b {
-	font-size: 20px
+	font-size: 22px
 }
 
 .blog_item .date {
-	font-size: 16px;
+	font-size: 20px;
 	display: block;
 	line-height: auto;
 	margin: 10px 0
@@ -2503,7 +2510,7 @@ h1 {
 
 .date-cmt {
 	display: block;
-	font-size: 12px
+	font-size: 16px;
 }
 
 .name-cmt {
@@ -2530,7 +2537,7 @@ h1 {
 }
 
 .blog_date {
-	font-size: 14px;
+	font-size: 18px;
 	margin: 10px 0;
 	display: block;
 }
@@ -2585,11 +2592,11 @@ h1 {
 .navbar #logo {
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 30px;
+	font-size: 40px;
 	margin: 0;
 	padding: 0;
-	line-height: 40px;
-	font-family: 'Crimson Text', "Good Vibes Pro", cursive;
+	line-height: 50px;
+	font-family: 'AmbroiseRegular', cursive;
 }
 .navbar a {
 	padding: 5px 10px;
@@ -2623,8 +2630,10 @@ h1 {
 	display: inline;
 }
 .navbar ul li a {
-	font-size: 14px;
-	text-transform: uppercase;
+	font-size: 13px;
+	font-family: 'VogueAvantGarde';
+	letter-spacing: 0.5px;
+	font-weight: 500;
 	color: #FFFFFF;
 	transition: all 0.5s ease;
 }
@@ -2691,7 +2700,7 @@ h1 {
 	color: #999999;
 	line-height: 1.2;
 	text-transform: none;
-	font-size: 15px;
+	font-size: 18px;
 }
 .navbar ul li.has-dropdown .dropdown li a:hover {
 	color: #000000;

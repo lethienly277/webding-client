@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'AdobeGaramondPro';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/AGaramondPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'VogueAvantGarde';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ITCAvantGardeGothicBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'VogueAvantGarde';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ITCAvantGardeGothicDemi.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'VogueAvantGarde';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ITCAvantGardeGothicMedium.otf") format("truetype");
+}
+/* 
+@font-face {
+  font-family: 'VogueAvantGarde';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ITCAvantGardeGothicRegular.otf") format("truetype");
+} */
+
+@font-face {
+  font-family: 'AmbroiseRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/AmbroiseRegular.otf') format('truetype');
+}

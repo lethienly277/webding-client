@@ -1,17 +1,15 @@
-body {
-	background-image:url(../images/brown/main_back.jpg);
-}
+
 h2 {
-	color:#d9c6b1
+	color: #090909
 }
 h2:after {
-	background: url(../images/brown/bullet.png);
+	/* background: url(../images/brown/bullet.png); */
 	background-size: cover;
 }
-.bullet {
+/* .bullet {
 	background: url(../images/brown/bullet.png);
 	background-size: cover;
-}
+} */
 .im_arrows:before {
 	background: url(../images/brown/im_arrow_end.png);
 	background-size: cover;
@@ -22,19 +20,19 @@ h2:after {
 }
 
 .btn {
-	color:#d9c6b1!important;
-	border: 2px solid #d9c6b1
+	color:#090909!important;
+	border: 2px solid #090909
 	
 }
 	.btn:hover {
-		background:#e77f66;
+		background:#323232;
 		color:#fff!important
 	}
 	.btn:active, .btn:focus {
-		background:#e77f66;
+		background:#323232;
 	}
 .married_coundown {
-	color: #e77f66;
+	color: #090909;
 }
 .double_arrow {
 	background: url(../images/brown/double_arrow.png);
@@ -42,28 +40,37 @@ h2:after {
 }
 
 .owl-pagination {
-	background: url(../images/brown/arrow_back.png) repeat-x;
+	/* background: url(../images/brown/arrow_back.png) repeat-x; */
 	background-size: cover
 }
 .owl-pagination:before {
-	background: url(../images/brown/arrow_end.png);
+	/* background: url(../images/brown/arrow_end.png); */
 	background-size: cover;
 }
 .owl-pagination:after {
-	background: url(../images/brown/arrow_start.png);
+	/* background: url(../images/brown/arrow_start.png); */
 	background-size: cover;
 }
 .owl-page:after {
-	background: url(../images/brown/bullet.png);
+	/* background: url(../images/brown/bullet.png); */
+	background-color: #fff;
+	border: 2px solid #090909;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
 	background-size: cover
 }
 .owl-page.active:after {
-	background: url(../images/brown/bullet_active.png);
+	/* background: url(../images/brown/bullet_active.png); */
+	background-color: #090909;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
 	background-size: cover
 }
 
 .story_title, .story_title i {
-	color: #d9c6b1;
+	color: #090909;
 }
 .story_title:before, .story_title:after {
 	background:#d9c6b1;

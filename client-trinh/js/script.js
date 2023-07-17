@@ -137,7 +137,7 @@
     })
 
     /*CountDown*/
-    $('.married_coundown').countdown({ until: new Date(2016, 12, 19) })
+    $('.married_coundown').countdown({ until: new Date(2023, 9, 19) })
 
     /*OWL Carousel in Our Story*/
     $('.story_wrapper').owlCarousel({
