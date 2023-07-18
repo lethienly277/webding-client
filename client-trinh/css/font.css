@@ -29,14 +29,6 @@
   font-display: swap;
   src: url("../fonts/VogueAvantGarde-Medium.woff") format("woff2");
 }
-/* 
-@font-face {
-  font-family: 'VogueAvantGarde';
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/ITCAvantGardeGothicRegular.otf") format("truetype");
-} */
 
 @font-face {
   font-family: 'AmbroiseRegular';
