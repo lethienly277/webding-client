@@ -3,7 +3,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/AGaramondPro-Regular.otf") format("truetype");
+  src: url("../fonts/agaramondpro-regular-webfont.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/ITCAvantGardeGothicBold.otf") format("truetype");
+  src: url("../fonts/VogueAvantGarde-Bold.woff") format("woff2");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/ITCAvantGardeGothicDemi.otf") format("truetype");
+  src: url("../fonts/VogueAvantGarde-DemiBold.woff") format("woff2");
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/ITCAvantGardeGothicMedium.otf") format("truetype");
+  src: url("../fonts/VogueAvantGarde-Medium.woff") format("woff2");
 }
 /* 
 @font-face {
