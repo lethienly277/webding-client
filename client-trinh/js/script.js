@@ -141,7 +141,7 @@
 
     /*OWL Carousel in Our Story*/
     $('.story_wrapper').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
@@ -157,9 +157,26 @@
       touchDrag: false
     })
 
+    $('.dress_code_mobile').owlCarousel({
+      navigation: false,
+      responsive: true,
+      responsiveRefreshRate: 200,
+      slideSpeed: 200,
+      paginationSpeed: 200,
+      rewindSpeed: 500,
+      items: 3,
+      itemsTablet: [768, 2],
+      autoPlay: true,
+      itemsMobile: [479, 1],
+      itemsDesktopSmall: [980, 2],
+      itemsDesktop: [1500, 2],
+      mouseDrag: false,
+      touchDrag: false
+    })
+
     /*Gallery Carousel */
     $('.gallery_wrapper').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
@@ -175,7 +192,7 @@
 
     /*Registry Carousel */
     $('.registry_wrapper').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
@@ -191,7 +208,7 @@
 
     /*The Crew Carousel*/
     $('.guest_wrapper').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
@@ -207,7 +224,7 @@
 
     /*Slider Carousel*/
     $('.slider').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
@@ -224,7 +241,7 @@
 
     /*Blog Inside*/
     $('.blog_inside_wrapper').owlCarousel({
-      navigation: true,
+      navigation: false,
       responsive: true,
       responsiveRefreshRate: 200,
       slideSpeed: 200,
