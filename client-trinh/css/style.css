@@ -48,11 +48,22 @@ img {
 	margin-right: 0;
 	margin-left: 0;
 }
-
+.hotel-content {
+	padding: 42px;
+}
+#rsvp h2 span:after {
+	background: #ffffff;
+}
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
 		width: 400px !important;
 		height: 900px !important;
+	}
+	.hotel-content {
+		padding-top: 0px;
+	}
+	.rsvp-f {
+		width: 100% !important;
 	}
 }
 
@@ -452,7 +463,7 @@ h1 span:after {
 	height: 40px;
 	transform: rotate(17deg);
 	margin: 9px 0 0 13px;
-	background: #d9c6b1
+	background: #000000;
 }
 
 .inside_intro h1 {
@@ -2660,9 +2671,7 @@ h1 {
 }
 
 #hotel>div {
-	margin-top: 50px;
-	padding-top: 50px;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 }
 
 #hotel>div>div:nth-child(2) {
