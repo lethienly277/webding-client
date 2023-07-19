@@ -169,7 +169,7 @@
       autoPlay: true,
       itemsMobile: [479, 1],
       itemsDesktopSmall: [980, 2],
-      itemsDesktop: [1500, 2],
+      itemsDesktop: [2560, 2],
       mouseDrag: false,
       touchDrag: false
     })
