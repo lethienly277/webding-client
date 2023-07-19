@@ -1275,38 +1275,17 @@ header {
 
 }
 
-.owl-prev:before {
-	width: 1px;
-	height: 100px;
-	transform: rotate(-145deg);
-	background: #bdbdbd;
-	content: "";
-	display: block;
-	transition: transform 0.2s;
-	position: absolute;
-	transform-origin: top;
-	top: 93px;
-}
-
-.owl-prev:hover:before {
-	transform: rotate(-150deg);
-}
-
-.owl-prev:hover:after {
-	transform: rotate(150deg);
-}
-
 .owl-prev:after {
-	width: 1px;
-	height: 100px;
-	transform: rotate(145deg);
+	width: 24px;
+	height: 24px;
 	background: #bdbdbd;
 	content: "";
 	display: block;
 	position: absolute;
 	transform-origin: bottom;
+	border-radius: 50%;
 	transition: transform 0.2s;
-	top: -8px;
+	top: 50%;
 }
 
 .owl-carousel:hover .owl-next,
@@ -1326,39 +1305,17 @@ header {
 	transition: background 0.5s;
 }
 
-.owl-next:before {
-	width: 1px;
-	height: 100px;
-	transform: rotate(145deg);
-	background: #bdbdbd;
-	content: "";
-	display: block;
-	transition: transform 0.2s;
-	position: absolute;
-	transform-origin: top;
-	top: 93px;
-	margin: 0 0 0 62px
-}
-
-.owl-next:hover:before {
-	transform: rotate(150deg);
-}
-
-.owl-next:hover:after {
-	transform: rotate(-150deg);
-}
-
 .owl-next:after {
-	width: 1px;
-	height: 100px;
-	transform: rotate(-145deg);
+	width: 24px;
+	height: 24px;
 	background: #bdbdbd;
-	content: "";
+	content: ".";
 	display: block;
 	position: absolute;
 	transform-origin: bottom;
 	transition: transform 0.2s;
-	top: -8px;
+	top: 50%;
+	border-radius: 50%;
 	margin: 0 0 0 62px
 }
 
@@ -2356,7 +2313,6 @@ span.wpcf7-not-valid-tip {
 	}
 
 	.story_img:before {
-		border: 10px solid rgba(255, 255, 255, 0.4);
 		border-radius: 50%;
 		content: "";
 		display: block;
@@ -2379,8 +2335,7 @@ span.wpcf7-not-valid-tip {
 	.story_back,
 	.story_img_plane,
 	.story_title:after,
-	.story_title:before,
-	.owl-pagination {
+	.story_title:before {
 		display: none
 	}
 
@@ -2850,6 +2805,37 @@ h1 {
 	-ms-transform: translateY(0);
 	transform: translateY(0);
 	opacity: 1;
+}
+
+.dress_code_mobile {
+	display: block;
+}
+
+.dress-code-item {
+	padding: 0 21px;
+}
+
+.dress-code-content {
+	margin-top: 42px;
+}
+
+.dress-code-image {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.dress-code-image img {
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
 }
 
 
