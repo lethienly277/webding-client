@@ -107,7 +107,7 @@ img {
 	position: absolute;
 	height: 2px;
 	width: 100%;
-	background: #fff;
+	background: #000;
 	border-radius: 9px;
 	opacity: 1;
 	-webkit-transform: rotate(0deg);
@@ -154,6 +154,11 @@ img {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 	left: 8px;
+	background-color:#fff;
+}
+
+.navbar-scroll .nav-icon3.open span:nth-child(1) {
+	background-color:#000;
 }
 
 .nav-icon3.open span:nth-child(2) {
@@ -168,6 +173,11 @@ img {
 	transform: rotate(-45deg);
 	top: 18px;
 	left: 8px;
+	background-color:#fff;
+}
+
+.navbar-scroll .nav-icon3.open span:nth-child(3) {
+	background-color:#000;
 }
 
 .visible-none {
@@ -2182,7 +2192,10 @@ span.wpcf7-not-valid-tip {
 		margin: 0;
 	}
 
-	.home_intro {}
+	.home_intro {
+		background-position-x: -196px;
+		height: 52%;
+	}
 
 	.hotel {}
 
@@ -2559,15 +2572,15 @@ h1 {
 }
 
 .navbar.affix .active>a {
-	color: #fff !important;
+	color: #000000 !important;
 }
 
 .navbar.affix .active>a:after {
-	background: #fff;
+	background: #000000;
 }
 
 .navbar.affix .has-dropdown:after {
-	color: #fff;
+	color: #000000;
 }
 
 .navbar #logo {
@@ -2582,7 +2595,7 @@ h1 {
 
 .navbar a {
 	padding: 5px 10px;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .navbar .menu-1,
@@ -2689,7 +2702,7 @@ h1 {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: #000;
 	transition: all 0.5s ease;
 }
 
