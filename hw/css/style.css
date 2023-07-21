@@ -1933,7 +1933,8 @@ span.wpcf7-not-valid-tip {
 }
 
 .footer .container {
-	height: 100%
+	height: 100%;
+	min-height: 350px;
 }
 
 .footer .over {
@@ -1948,7 +1949,7 @@ span.wpcf7-not-valid-tip {
 }
 
 .thanks {
-	font: 45px/48px 'VogueAvantGarde', sans-serif;
+	font: 36px/38px 'VogueAvantGarde', sans-serif;
 	padding: 0 24px;
 	margin: 0 0 21px 0
 }
@@ -2193,8 +2194,19 @@ span.wpcf7-not-valid-tip {
 	}
 
 	.home_intro {
-		background-position-x: -196px;
-		height: 52%;
+		background-position-x: right;
+		height: 37%;
+	}
+
+	.home_intro .title1_2 {
+		font-size: 36px;
+	}
+
+	.home_intro .title0 {
+		margin-top: 0 !important;
+	}
+	.thanks {
+		font-size: 28px;
 	}
 
 	.hotel {}
