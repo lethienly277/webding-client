@@ -263,6 +263,7 @@ img {
 	text-align: center;
 	border-bottom: 1px solid;
 	margin: 0 10px 50px;
+	font-family: VogueAvantGarde ;
 }
 
 .filters-button-group .button {
@@ -2217,7 +2218,7 @@ span.wpcf7-not-valid-tip {
 		margin-top: 0 !important;
 	}
 	.thanks {
-		font-size: 28px;
+		font-size: 14px;
 	}
 
 	.hotel {}
@@ -2268,8 +2269,20 @@ span.wpcf7-not-valid-tip {
 		color: #000 !important;
 		font-size: 20px !important;
 		margin-top: 140px !important;
+		font-family: 'AdobeGaramondPro', serif !important;
 	}
-
+	.title-address {
+		font-size: 20px;
+	}
+	.title-min {
+		font-size: 16px;
+	}
+	#when_where {
+		margin-bottom: 0 !important;
+	}
+	.thank-you {
+		font-size: 60px !important;
+	}
 
 
 }
@@ -2308,6 +2321,19 @@ span.wpcf7-not-valid-tip {
 	.story_title, .story_title i {
 		color: #000 !important;
 		font-size: 20px !important;
+		font-family: 'AdobeGaramondPro', serif !important;
+	}
+	.title-address {
+		font-size: 20px;
+	}
+	.title-min {
+		font-size: 16px;
+	}
+	#when_where {
+		margin-bottom: 0 !important;
+	}
+	.thank-you {
+		font-size: 60px !important;
 	}
 
 	h2 {
