@@ -2266,7 +2266,10 @@ span.wpcf7-not-valid-tip {
 
 	.story_title, .story_title i {
 		color: #000 !important;
+		font-size: 20px !important;
+		margin-top: 140px !important;
 	}
+
 
 
 }
@@ -2304,6 +2307,7 @@ span.wpcf7-not-valid-tip {
 	}
 	.story_title, .story_title i {
 		color: #000 !important;
+		font-size: 20px !important;
 	}
 
 	h2 {
@@ -2361,13 +2365,15 @@ span.wpcf7-not-valid-tip {
 	}
 
 	.story_img {
-		width: 200px;
-		height: 200px;
-		left: 50%;
-		margin: 0 0 0 -100px;
+		width: 300px;
+		height: 300px;
+		left: 12%;
 		position: absolute;
-
 		z-index: 5;
+		border-radius: 100%;
+	}
+	.story_item {
+		height: 370px !important;
 	}
 
 	.story_img:before {
@@ -2402,7 +2408,8 @@ span.wpcf7-not-valid-tip {
 	}
 
 	.story_title {
-		margin: 0
+		margin: 0;
+		margin-top: 120px !important;
 	}
 
 	.story_wrapper .owl-wrapper-outer {
