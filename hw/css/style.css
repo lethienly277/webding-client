@@ -58,6 +58,7 @@ img {
 .im1.parallax, .im2.parallax {
 	background-position-y: bottom;
 	background-position-x: center;
+	background-size: auto;
 }
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
@@ -1063,7 +1064,7 @@ header {
 }
 
 .married_coundown {
-	font: 400 40px/48px 'VogueAvantGarde', sans-serif;
+	font: 400 30px/48px 'VogueAvantGarde', sans-serif;
 	margin: 20px 0 0 0
 }
 
@@ -1446,7 +1447,7 @@ header {
 }
 
 .story_plane {
-	background: #fff;
+	background: #000;
 	height: 100%;
 	width: 50%;
 	position: relative;
@@ -1519,7 +1520,7 @@ header {
 }
 
 .story_title {
-	font: 34px/26px 'VogueAvantGarde', sans-serif;
+	font: 24px/26px 'VogueAvantGarde', sans-serif;
 	margin: 0 -10% 28px 0;
 	text-align: center;
 	color: #090909;
@@ -1934,7 +1935,7 @@ span.wpcf7-not-valid-tip {
 
 .footer .container {
 	height: 100%;
-	min-height: 350px;
+	min-height: 450px;
 }
 
 .footer .over {
@@ -1952,6 +1953,16 @@ span.wpcf7-not-valid-tip {
 	font: 36px/38px 'VogueAvantGarde', sans-serif;
 	padding: 0 24px;
 	margin: 0 0 21px 0
+	margin-top: 87px;
+	font-size: 13px;
+	margin-bottom: 0;
+	padding-left: 226px;
+	line-height: 17px;
+	margin-top: 101px;
+}
+.titel-thanks {
+	font-size: 20px;
+	margin-top: 25px;
 }
 
 .footer_txt {

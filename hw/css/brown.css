@@ -70,7 +70,7 @@ h2:after {
 }
 
 .story_title, .story_title i {
-	color: #090909;
+	color: #fff;
 }
 .story_title:before, .story_title:after {
 	background:#d9c6b1;
