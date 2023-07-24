@@ -48,9 +48,7 @@ img {
 	margin-right: 0;
 	margin-left: 0;
 }
-.hotel-content {
-	padding: 42px;
-}
+
 #rsvp h2 span:after {
 	background: #ffffff;
 }
@@ -59,6 +57,9 @@ img {
 	background-position-y: bottom;
 	background-position-x: center;
 	background-size: auto;
+}
+.desktop-hide {
+	display: none !important;
 }
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
@@ -2247,6 +2248,10 @@ span.wpcf7-not-valid-tip {
 		background-repeat: no-repeat !important;
 	}
 
+	.mobile-hide {
+		display: none !important;
+	}
+
 	.im1,
 	.im2 {
 		/*display: none;*/
@@ -2299,6 +2304,9 @@ span.wpcf7-not-valid-tip {
 	.owl-carousel:hover .owl-next,
 	.owl-carousel:hover .owl-prev {
 		background: none !important
+	}
+	.mobile-hide {
+		display: none !important;
 	}
 
 	.im1,
@@ -2696,17 +2704,17 @@ h1 {
 #hotel>div {
 	display: grid;
 	grid-template-columns: repeat(1, minmax(0, 1fr));
-	min-height: 700px;
+	/*min-height: 700px;*/
 }
 
 #when_where>div>div:nth-child(1) {
-	grid-column: span 1 / span 1;
-	background-image: url('../images/namnghi.jpeg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 500px;
-	background-position-x: right;
+
+	/*background-image: url('../images/namnghi.jpeg');*/
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*min-height: 500px;*/
+	/*background-position-x: right;*/
 }
 
 #when_where .title1 {
@@ -2722,36 +2730,15 @@ h1 {
 }
 
 #hotel>div>div:nth-child(2) {
-	grid-column: span 1 / span 1;
-	background-image: url('../images/Hotel Reservation.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 500px;
+
 }
 
 @media (min-width: 768px) {
-	#when_where>div,
-	#hotel>div {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
 
-	#when_where>div>div:nth-child(1),
-	#hotel>div>div:nth-child(2) {
-		min-height: auto;
-	}
 }
 
 @media (min-width: 1366px) {
-	#when_where>div,
-	#hotel>div {
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-	}
 
-	#when_where>div>div:nth-child(1),
-	#hotel>div>div:nth-child(2) {
-		grid-column: span 2 / span 2;
-	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2950,5 +2937,35 @@ h1 {
 		bottom: 2em;
 		left: 2em;
 		right: 2em;
+	}
+	.namnghi {
+		max-height: fit-content;
+		padding: 0 !important;
+		position: absolute;
+		bottom: 1%;
+		font-size: 14px !important;
+		right: 12%;
+		color: #fff;
+	}
+	.namnghi .title-address a {
+		font-size: 15px;
+		color: #fff !important;
+
+	}
+	.namnghi .title-address {
+		margin-bottom: 0;
+	}
+	.namnghi .title-min {
+		color: #fff !important;
+	}
+	.mhotel {
+		position: absolute;
+		bottom: 1%;
+		font-size: 20px !important;
+		right: 3%;
+		color: #fff;
+	}
+	.mhotel a {
+		color: #fff !important;
 	}
 }
