@@ -2194,7 +2194,7 @@ span.wpcf7-not-valid-tip {
 
 @media (max-width:768px) {
 	.story_txt {
-		min-width: 360px;
+		min-width: 100%;
 	}
 
 	.story_txt p,
@@ -2409,7 +2409,7 @@ span.wpcf7-not-valid-tip {
 	.story_img {
 		width: 300px;
 		height: 300px;
-		left: 12%;
+		left: 13.75%;
 		position: absolute;
 		z-index: 5;
 		border-radius: 100%;
