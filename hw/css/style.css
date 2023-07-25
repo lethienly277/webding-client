@@ -58,6 +58,9 @@ img {
 	background-position-x: center;
 	background-size: auto;
 }
+.im1.parallax {
+	background-size: 330px;
+}
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
 		width: 400px !important;
@@ -2255,9 +2258,11 @@ span.wpcf7-not-valid-tip {
 		height: 100px;
 		background-size: cover;
 		margin-top: 60px;
+		background-position-y: -1px !important;
 	}
 	.im1 {
 		left: 80px;
+		background-size: 104px !important;
 	}
 	.im2 {
 		right: 80px;
@@ -2318,9 +2323,11 @@ span.wpcf7-not-valid-tip {
 		height: 100px;
 		background-size: cover !important;
 		margin-top: 60px;
+		background-position-y: -1px !important;
 	}
 	.im1 {
 		left: 80px;
+		background-size: 104px !important;
 	}
 	.im2 {
 		right: 80px;
