@@ -1,0 +1,26 @@
+@media (max-width: 766px) {
+    #slide-his-name{
+        font-size:70px;
+    }
+
+    #slide-her-name{
+        font-size:70px;
+    }
+
+    #counting{
+        font-size:48px;
+    }
+
+    #attending{
+        font-size:52px;
+    }
+
+    #adventure{
+        font-size:94px;
+    }
+
+    #begin{
+        font-size:72px;
+    }
+}
+
