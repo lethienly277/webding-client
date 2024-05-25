@@ -790,7 +790,7 @@ a.ui-button:active,
 
 .theme-btn-s2 {
     background: #E5D1C7;
-    color: #101010;
+    color: #ffffff;
     display: inline-block;
     font-weight: 500;
     padding: 15px 45px;
@@ -969,8 +969,8 @@ a.ui-button:active,
 }
 
 .wpo-page-title {
-    background: url(../images/page-title.jpg) no-repeat center top/cover;
-    min-height: 360px;
+    background: url(../images/backgroundd.jpg) no-repeat center top/cover;
+    min-height: 430px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
