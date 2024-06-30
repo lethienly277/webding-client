@@ -137,9 +137,12 @@ Version:        1.0.0
 	Fonts
 ----------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Sail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Callem&display=swap");
 /* 1.1 Theme Reset Style */
-
+@font-face {
+    font-family: "Callem";
+    src: url("../fonts/Callem Script.ttf") format("truetype");
+}
 html {
     font-size: 15px;
 }
@@ -149,7 +152,7 @@ html {
 }
 
 body {
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     color: #5C5C5C;
     background-color: #fff;
     font-size: 18px;
@@ -176,7 +179,7 @@ h4,
 h5,
 h6 {
     color: #101010;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-weight: 400;
 }
 
@@ -643,7 +646,7 @@ a.ui-button:active,
 
 .wpo-section-title h2,
 .wpo-section-title-s2 h2 {
-    font-family: Sail;
+    font-family: Callem;
     font-size: 50px;
     font-weight: 400;
     margin: 0;
@@ -1296,7 +1299,7 @@ a.ui-button:active,
     margin: 0 0 1.3em;
     position: relative;
     text-transform: capitalize;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     padding-bottom: 20px;
     font-weight: 600;
 }
@@ -1431,7 +1434,7 @@ a.ui-button:active,
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 15px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .blog-sidebar .about-widget p {
@@ -1441,7 +1444,7 @@ a.ui-button:active,
 }
 
 .blog-sidebar .about-widget a {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 14px;
     font-size: 0.93333rem;
     color: #101010;
@@ -1538,7 +1541,7 @@ a.ui-button:active,
     font-weight: 500;
     line-height: 1.3em;
     margin: 0 0 0.3em;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 1199px) {
@@ -1727,7 +1730,7 @@ a.ui-button:active,
     position: relative;
     text-transform: none;
     text-transform: uppercase;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-shop-sidebar>.widget+.widget {
@@ -1855,7 +1858,7 @@ a.ui-button:active,
 
 .wpo-shop-sidebar .widget_product_categories,
 .wpo-shop-sidebar .woocommerce-widget-layered-nav {
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-shop-sidebar .widget_product_categories .product-categories a,
@@ -1944,7 +1947,7 @@ a.ui-button:active,
     font-size: 18px;
     font-weight: 600;
     color: #5C5C5C;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .widget_best-seller .wpo-best-seller-item .wpo-best-seller-text span {
@@ -2253,7 +2256,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     color: #657150;
 }
 
@@ -3476,6 +3479,7 @@ a.ui-button:active,
 
 .wpo-header-style-4 #navbar>ul>li>a {
     color: #fff;
+    text-shadow: 1px 1px 5px #000;
 }
 
 @media (min-width: 991px) {
@@ -3487,6 +3491,7 @@ a.ui-button:active,
 .wpo-header-style-4 #navbar>ul>li>a:hover,
 .wpo-header-style-4 #navbar>ul>li>a:focus {
     color: #fff;
+    text-shadow: unset !important;
 }
 
 .wpo-header-style-4 .header-right .cart-toggle-btn .fi,
@@ -3969,7 +3974,7 @@ a.ui-button:active,
 .wpo-hero-slider-s3 .wpo-hero-title-top span {
     font-size: 22px;
     color: #e4e4e4;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
 }
 
 @media (max-width: 767px) {
@@ -4664,7 +4669,7 @@ a.ui-button:active,
 .static-hero-s5 .wpo-wedding-date #clock3 .time,
 .static-hero-s10 .wpo-wedding-date #clock .time,
 .static-hero-s10 .wpo-wedding-date #clock3 .time {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 60px;
     font-size: 4rem;
     line-height: 1em;
@@ -5513,7 +5518,7 @@ a.ui-button:active,
 }
 
 .static-hero-s3 .slide-sub-title h3 {
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -6545,7 +6550,7 @@ a.ui-button:active,
     line-height: normal;
     color: #101010;
     text-transform: capitalize;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     margin-bottom: 20px;
 }
 
@@ -6915,7 +6920,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 500;
     color: #657150;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 575px) {
@@ -7087,7 +7092,7 @@ a.ui-button:active,
     width: 100%;
     height: 100%;
     content: "";
-    background: rgba(16, 16, 16, 0.3);
+    /*background: rgba(16, 16, 16, 0.05);*/
 }
 
 .wpo-hero-slider-s3 .hero-inner-text {
@@ -7598,12 +7603,12 @@ a.ui-button:active,
 .wpo-site-footer .widget-title h3,
 .wpo-site-footer-s2 .widget-title h3 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 60px;
     line-height: 37px;
     color: #fff;
     margin: 0;
     position: relative;
-    font-family: "Sail", cursive;
+    font-family: "Callem";
 }
 
 @media (max-width: 991px) {
@@ -7620,8 +7625,8 @@ a.ui-button:active,
 
 .wpo-site-footer .about-widget .logo,
 .wpo-site-footer-s2 .about-widget .logo {
-    font-size: 35px;
-    font-family: "Sail", cursive;
+    font-size: 60px;
+    font-family: "Callem", cursive;
     color: #fff;
     line-height: 40px;
 }
@@ -10956,7 +10961,7 @@ a.ui-button:active,
 }
 
 .wpo-story-section-s2 .wpo-story-wrap .wpo-story-item .wpo-story-content .thumb span {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -11609,7 +11614,7 @@ a.ui-button:active,
 }
 
 .wpo-hero-wedding-date #clock .time {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 80px;
     font-size: 5.33333rem;
     line-height: 1em;
@@ -14062,7 +14067,7 @@ a.ui-button:active,
 .wpo-wedding-countdown #clock2 .time,
 .wpo-wedding-countdown-s2 #clock .time,
 .wpo-wedding-countdown-s2 #clock2 .time {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 100px;
     font-size: 6.66667rem;
     line-height: 1em;
@@ -14680,7 +14685,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 400;
     color: #101010;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
 }
 
 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover {
@@ -14739,14 +14744,14 @@ a.ui-button:active,
 
 .wpo-portfolio-section-s3 .portfolio-grids .grid {
     width: 33.33%;
-    padding: 0 15px 30px;
+    padding: 0 0px 0px;
     position: relative;
     overflow: hidden;
 }
 
 @media (max-width: 1199px) {
     .wpo-portfolio-section-s3 .portfolio-grids .grid {
-        padding: 0 10px 20px;
+        padding: 0 0px 0px;
     }
 }
 
@@ -14784,7 +14789,7 @@ a.ui-button:active,
     max-width: 453px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     text-align: center;
     padding: 20px;
     -webkit-transition: all .3s;
@@ -14968,7 +14973,7 @@ a.ui-button:active,
     line-height: 80px;
     color: #657150;
     margin: 0 0 0.1em;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -14981,7 +14986,7 @@ a.ui-button:active,
 }
 
 .wpo-fun-fact-section .grid h3 span {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     line-height: 85px;
 }
 
@@ -15019,7 +15024,7 @@ a.ui-button:active,
     font-weight: 400;
     margin: 0;
     color: #5C5C5C;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     text-align: center;
 }
 
@@ -15809,7 +15814,7 @@ a.ui-button:active,
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     color: #5C5C5C;
 }
 
@@ -15859,7 +15864,7 @@ a.ui-button:active,
 
 .wpo-pricing-section .wpo-pricing-wrap .wpo-pricing-item .wpo-pricing-top .wpo-pricing-text h2 span {
     font-size: 18px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     display: inline-block;
     margin-left: 10px;
     margin-top: 20px;
@@ -15993,7 +15998,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 400;
     color: #C8A898;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
 }
 
 .wpo-about-section .wpo-about-wrap .wpo-about-text .about-info,
@@ -16015,7 +16020,7 @@ a.ui-button:active,
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -16085,8 +16090,8 @@ a.ui-button:active,
 
 .wpo-about-section .wpo-about-wrap .about-right-img .about-right-img-inner:after,
 .wpo-about-section-s2 .wpo-about-wrap .about-right-img .about-right-img-inner:after {
-    position: absolute;
-    left: 0;
+    /*position: absolute;*/
+    /*left: 0;*/
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -16099,8 +16104,8 @@ a.ui-button:active,
 
 .wpo-about-section .wpo-about-wrap .about-right-img .about-right-img-inner:before,
 .wpo-about-section-s2 .wpo-about-wrap .about-right-img .about-right-img-inner:before {
-    position: absolute;
-    left: 50%;
+    /*position: absolute;*/
+    /*left: 50%;*/
     top: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -16600,7 +16605,7 @@ a.ui-button:active,
 .wpo-about-section-s2 .wpo-about-wrap .wpo-about-text h2 {
     font-size: 50px;
     font-weight: 500;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     margin-bottom: 30px;
 }
 
@@ -17046,7 +17051,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     color: #fff;
     display: block;
 }
@@ -17434,7 +17439,7 @@ a.ui-button:active,
 }
 
 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 60px;
     font-size: 4rem;
     line-height: 1em;
@@ -18332,7 +18337,7 @@ a.ui-button:active,
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 575px) {
@@ -18497,7 +18502,7 @@ a.ui-button:active,
 
 .wpo-category-section .wpo-category-wrap .wpo-category-item .wpo-category-text a {
     text-align: center;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -19088,7 +19093,7 @@ a.ui-button:active,
 }
 
 .accordion-item h3 {
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-weight: 600;
 }
 
@@ -19365,7 +19370,7 @@ a.ui-button:active,
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 500;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-p-details-section .process-wrap {
@@ -19382,7 +19387,7 @@ a.ui-button:active,
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-p-details-section .process-wrap .process-item p {
@@ -19456,7 +19461,7 @@ a.ui-button:active,
 .wpo-faq-section h4 {
     font-size: 30px;
     margin-bottom: 30px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-weight: 500;
 }
 
@@ -19744,7 +19749,7 @@ a.ui-button:active,
 
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 60px;
     font-size: 4rem;
     line-height: 1em;
@@ -21033,7 +21038,7 @@ a.ui-button:active,
 }
 
 .wpo-shop-single-section .product-info .nav-tabs {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     border: 0;
 }
 
@@ -21061,7 +21066,7 @@ a.ui-button:active,
     margin: 0;
     display: block;
     padding: 12px 20px 11px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     position: relative;
 }
 
@@ -21460,7 +21465,7 @@ a.ui-button:active,
     text-align: center;
     background: #eee;
     padding: 20px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .team-info-wrap ul {
@@ -21473,7 +21478,7 @@ a.ui-button:active,
 
 .exprience-wrap h2 {
     margin-bottom: 20px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-weight: 600;
 }
 
@@ -21769,7 +21774,7 @@ a.ui-button:active,
     font-weight: 600;
     color: #333333;
     margin-bottom: 30px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-contact-area .quote-form {
@@ -22202,7 +22207,7 @@ a.ui-button:active,
     font-size: 2.26667rem;
     line-height: 1.2em;
     margin: -0.27em 0 0.7em;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-weight: 500;
 }
 
@@ -22243,7 +22248,7 @@ a.ui-button:active,
     text-decoration: underline;
     color: #5C5C5C;
     text-transform: capitalize;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-size: 16px;
 }
 
@@ -22584,7 +22589,7 @@ a.ui-button:active,
     font-size: 2.33333rem;
     margin: -0.22em 0 0.7em;
     line-height: 1.3em;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-weight: 500;
 }
 
@@ -23039,7 +23044,7 @@ a.ui-button:active,
     margin: 0 0 1em;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -23084,7 +23089,7 @@ a.ui-button:active,
 }
 
 .wpo-blog-single-section .comments-area .comments-meta h4 {
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-size: 18px;
     font-size: 1.2rem;
     color: #101010;
@@ -23100,7 +23105,7 @@ a.ui-button:active,
     text-transform: none;
     display: inline-block;
     padding-left: 5px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -23110,7 +23115,7 @@ a.ui-button:active,
 }
 
 .wpo-blog-single-section .comments-area .comment-reply-link {
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     font-size: 14px;
     font-size: 0.93333rem;
     font-weight: 600;
@@ -23118,7 +23123,7 @@ a.ui-button:active,
     text-align: center;
     border-radius: 50px;
     display: inline-block;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -23138,7 +23143,7 @@ a.ui-button:active,
     margin: 0 0 1.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -23376,7 +23381,7 @@ a.ui-button:active,
 .wpo-contact-pg-section form .submit-area .theme-btn,
 .wpo-contact-pg-section form .submit-area .view-cart-btn {
     border-radius: 0px;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     font-size: 16px;
 }
 
@@ -23452,7 +23457,7 @@ a.ui-button:active,
     font-size: 30px;
     font-weight: 500;
     margin: 20px 0;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text p {
@@ -23882,7 +23887,7 @@ a.ui-button:active,
 }
 
 .preview-section-title h2 {
-    font-family: Sail;
+    font-family: Callem;
     font-size: 50px;
     font-weight: 400;
     margin: 0;
@@ -24037,7 +24042,7 @@ a.ui-button:active,
     font-size: 26px;
     margin: 0;
     color: #101010;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -24232,7 +24237,7 @@ a.ui-button:active,
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     font-size: 50px;
-    font-family: "Sail", cursive;
+    font-family: "Callem", cursive;
     display: inline-block;
     padding: 10px 30px;
     background: rgba(0, 0, 0, 0.8);
@@ -24395,7 +24400,7 @@ a.ui-button:active,
     font-weight: 400;
     margin: 10px 0;
     color: #101010;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 .wpo-features-section .wpo-features-item .wpo-features-text p {
@@ -24607,7 +24612,7 @@ a.ui-button:active,
 .pthumb h2 span {
     font-size: 22px;
     display: block;
-    font-family: "Jost", sans-serif;
+    font-family: "Belleza", sans-serif;
     position: relative;
     left: -4px;
 }
