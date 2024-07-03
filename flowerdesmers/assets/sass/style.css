@@ -260,7 +260,7 @@ img {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 20px 0;
 }
 
 @media (max-width: 991px) {
@@ -607,7 +607,7 @@ a.ui-button:active,
 
 .wpo-section-title,
 .wpo-section-title-s2 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -646,7 +646,7 @@ a.ui-button:active,
 
 .wpo-section-title h2,
 .wpo-section-title-s2 h2 {
-    font-family: Callem;
+    font-family: 'Jost';
     font-size: 50px;
     font-weight: 400;
     margin: 0;
@@ -3018,7 +3018,7 @@ a.ui-button:active,
         position: relative;
     }
     .wpo-site-header #navbar>ul>li>a {
-        font-size: 16px;
+        font-size: 20px;
         padding: 35px 20px;
         display: block;
         color: #323232;
@@ -3317,7 +3317,8 @@ a.ui-button:active,
 }
 
 .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 170px;
+    max-width: 220px;
+    margin-top: 10px;
 }
 
 @media (max-width: 991px) {
@@ -14696,8 +14697,8 @@ a.ui-button:active,
 
 .wpo-portfolio-section-s3 {
     padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 @media (max-width: 1700px) {
@@ -14791,14 +14792,17 @@ a.ui-button:active,
     transform: translateX(-50%);
     font-family: "Belleza", sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 3px;
     -webkit-transition: all .3s;
     transition: all .3s;
+}
+.portfolio-content h4 {
+    font-family: "Belleza", sans-serif;
 }
 
 @media (max-width: 1700px) {
     .wpo-portfolio-section-s3 .portfolio-grids .grid .portfolio-content {
-        max-width: 350px;
+        max-width: 280px;
     }
 }
 
@@ -14826,7 +14830,7 @@ a.ui-button:active,
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 1700px) {
@@ -15110,7 +15114,7 @@ a.ui-button:active,
     width: 96%;
     height: 96%;
     content: "";
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 .wpo-testimonial-section .shape,
@@ -15161,7 +15165,7 @@ a.ui-button:active,
     width: 104%;
     height: 108%;
     content: "";
-    border: 1px solid #657150;
+    /*border: 1px solid #657150;*/
 }
 
 @media (max-width: 575px) {
@@ -15965,7 +15969,7 @@ a.ui-button:active,
 
 .wpo-about-section .wpo-about-wrap .wpo-about-text,
 .wpo-about-section-s2 .wpo-about-wrap .wpo-about-text {
-    max-width: 370px;
+    max-width: 400px;
 }
 
 @media (max-width: 991px) {
@@ -16004,7 +16008,7 @@ a.ui-button:active,
 .wpo-about-section .wpo-about-wrap .wpo-about-text .about-info,
 .wpo-about-section-s2 .wpo-about-wrap .wpo-about-text .about-info {
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -16065,8 +16069,8 @@ a.ui-button:active,
     border-radius: 250px 250px 20px 20px;
     background: #FFF;
     padding: 10px;
-    left: -115px;
-    bottom: -115px;
+    left: -45px;
+    bottom: -180px;
 }
 
 @media (max-width: 1199px) {
