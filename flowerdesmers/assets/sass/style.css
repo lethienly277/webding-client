@@ -651,7 +651,7 @@ a.ui-button:active,
     font-weight: 400;
     margin: 0;
     position: relative;
-    color: #101010;
+    color: #333566;
     display: inline-block;
     position: relative;
     margin-top: 10px;
@@ -3491,8 +3491,8 @@ a.ui-button:active,
 
 .wpo-header-style-4 #navbar>ul>li>a:hover,
 .wpo-header-style-4 #navbar>ul>li>a:focus {
-    color: #fff;
-    text-shadow: unset !important;
+    color: #fff !important;
+    text-shadow: unset;
 }
 
 .wpo-header-style-4 .header-right .cart-toggle-btn .fi,
@@ -15324,6 +15324,9 @@ a.ui-button:active,
     color: #657150;
 }
 
+.wpo-testimonial-text-btm h3 {
+    font-family: "Belleza", sans-serif;
+}
 @media (max-width: 1199px) {
     .wpo-testimonial-section .wpo-testimonial-items .wpo-testimonial-text-btm h3,
     .wpo-testimonial-section-s2 .wpo-testimonial-items .wpo-testimonial-text-btm h3,
@@ -15950,7 +15953,7 @@ a.ui-button:active,
 
 .wpo-about-section,
 .wpo-about-section-s2 {
-    padding-bottom: 225px;
+    padding-bottom: 100px;
 }
 
 @media (max-width: 991px) {
@@ -23495,8 +23498,8 @@ a.ui-button:active,
     height: 100%;
     border: 0;
     outline: 0;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter: grayscale(100%);*/
 }
 
 .wpo-contact-map-section h2.hidden {
