@@ -56,10 +56,10 @@ img {
 .im1.parallax, .im2.parallax {
 	background-position-y: bottom;
 	background-position-x: center;
-	background-size: auto;
+	background-size: 430px;
 }
-.im1.parallax {
-	background-size: 330px;
+.im2.parallax {
+	background-size: 435px;
 }
 @media screen and (max-width:767px) {
 	iframe[src*="google.com/forms"] {
@@ -1521,8 +1521,7 @@ header {
 }
 
 .story_title {
-	font: 24px/26px 'VogueAvantGarde', sans-serif;
-	margin: 0 -10% 28px 0;
+	font: 22px/26px 'VogueAvantGarde', sans-serif;
 	text-align: center;
 	color: #090909;
 	line-height: 30px;
@@ -2256,16 +2255,16 @@ span.wpcf7-not-valid-tip {
 		/*display: none;*/
 		width: 100px;
 		height: 100px;
-		background-size: cover;
 		margin-top: 60px;
-		background-position-y: -1px !important;
+		background-position-y: -45px !important;
 	}
 	.im1 {
 		left: 80px;
-		background-size: 104px !important;
+		background-size: 150px !important;
 	}
 	.im2 {
 		right: 80px;
+		background-size: 150px !important;
 	}
 	.content-invite {
 		margin-top: 120px;
@@ -2321,16 +2320,16 @@ span.wpcf7-not-valid-tip {
 		/*display: none;*/
 		width: 100px;
 		height: 100px;
-		background-size: cover !important;
 		margin-top: 60px;
-		background-position-y: -1px !important;
+		background-position-y: -45px !important;
 	}
 	.im1 {
 		left: 80px;
-		background-size: 104px !important;
+		background-size: 150px !important;
 	}
 	.im2 {
 		right: 80px;
+		background-size: 150px !important;
 	}
 	.content-invite {
 		margin-top: 120px;
@@ -2954,25 +2953,16 @@ h1 {
 		right: 2em;
 	}
 	.namnghi {
-		max-height: fit-content;
 		padding: 0 !important;
-		position: absolute;
-		bottom: 1%;
-		font-size: 14px !important;
-		right: 12%;
-		color: #fff;
-	}
-	.namnghi .title-address a {
-		font-size: 15px;
-		color: #fff !important;
+		font-size: 16px !important;
+		margin-top: 30px;
 
 	}
+
 	.namnghi .title-address {
 		margin-bottom: 0;
 	}
-	.namnghi .title-min {
-		color: #fff !important;
-	}
+
 	.mhotel {
 		position: absolute;
 		bottom: 1%;
