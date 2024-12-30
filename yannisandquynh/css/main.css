@@ -165,6 +165,7 @@ ol {
 .heading p {
 	font-size: 18px;
 	line-height: 1.5;
+	1px 5px 3px #1f1b1b
 }
 @media only screen and (min-width: 768px) {
 	.heading p {
@@ -277,6 +278,7 @@ ol {
 .banner-text span {
 	padding: 0 15px;
 	line-height: 21px;
+	text-shadow: 2px 3px 3px #000;
 }
 span.banner-text_names {
 	font-family: "Good Vibes Pro", cursive;
@@ -1234,10 +1236,10 @@ img {
 	margin: 10px 0;
 }
 .invitation .video {
-	height: 450px;
+	height: 100%;
 	overflow: hidden;
 	border-radius: 0;
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/6.jpg);
 }
 .invitation .video:hover .overlay {
 	opacity: 0.5;
@@ -1275,12 +1277,16 @@ img {
 }
 .banner_bottom {
 	padding: 10em 0 3em;
-	background-image: url(../img/banner-bottom.jpg);
+	background-image: url(../img/rock-island-club2.jpg);
 }
 .banner_bottom h2 {
 	margin: 0;
 	font-size: 60px;
 	color: #FFFFFF;
+	text-shadow: 2px 3px 3px #000;
+}
+.text-bot {
+	text-shadow: 2px 3px 3px #000;
 }
 .banner_bottom a {
 	color: #FFFFFF;
@@ -1707,7 +1713,7 @@ footer .copyright .block {
 }
 /* Countdown */
 .countdown.section {
-	background-image: url(../img/countdown-bg.jpg);
+	background-image: url(../img/rock-island-club4.jpg);
 }
 .countdown .heading {
 	margin-bottom: 8em;
@@ -1722,6 +1728,7 @@ footer .copyright .block {
 }
 .countdown .heading h2, .countdown .heading p {
 	color: #FFFFFF;
+	text-shadow: 2px 3px 3px #000;
 }
 @media only screen and (min-width: 768px) {
 	.timer {
@@ -1747,6 +1754,7 @@ footer .copyright .block {
 .timer .timer-item {
 	/* coutndown blocks */
 	position: relative;
+	text-shadow: 2px 3px 3px #000;
 }
 .timer .timer-item > div {
 	/* countdown block inner div */
